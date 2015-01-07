@@ -1,0 +1,82 @@
+body {
+	image-rendering: optimizeSpeed;            
+    image-rendering: -moz-crisp-edges;         
+    image-rendering: -o-crisp-edges;           
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: optimize-contrast;        
+    -ms-interpolation-mode: nearest-neighbor;  
+	image-rendering: pixelated;
+    background: url(background@2x.png);
+    background-size: 128px;
+}
+
+.title-container {
+	width: 500px;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.title {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	left: -30px;
+}
+
+.status {
+	position: relative;
+	left: 270px;
+	top: -25px;
+	font-family: helvetica;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+.can {
+	position: relative;
+	margin-left: 64px;
+	display: inline-block;
+	padding: 0px;
+	margin-top: 0px;
+	top: -150px;
+}
+
+.can-sticker {
+	position: relative;
+	top: -94px;
+	height: 100px;
+	/*image-rendering: optimizeSpeed;             */
+    /*image-rendering: -moz-crisp-edges;          */
+    /*image-rendering: -o-crisp-edges;            */
+    /*image-rendering: -webkit-optimize-contrast; */
+    /*image-rendering: optimize-contrast;         */
+    /*-ms-interpolation-mode: nearest-neighbor;   */
+}
+
+.highlight {
+	position: relative;
+	/*background-color: black;*/
+	top: -228px;
+	/*left: 132px;*/
+	display: none;
+}
+/*
+
+
+.can:hover .highlight {
+	display: block;
+}*/
+
+.shelf {
+	/*background-color: black;*/
+	width: 960px;
+	height: 64px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	top: 128px;
+}
